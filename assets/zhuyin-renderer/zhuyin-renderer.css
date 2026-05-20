@@ -1,0 +1,69 @@
+.bb-zhuyin-board {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Noto Sans TC", serif;
+}
+
+.bb-zhuyin-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.bb-zhuyin-cell {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.bb-zhuyin-pair {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.bb-hanzi-slot {
+  line-height: 1;
+  font-weight: 900;
+  text-align: center;
+}
+
+.bb-ascii-slot {
+  line-height: 1;
+  font-weight: 800;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bb-zhuyin-track {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 700;
+  color: currentColor;
+}
+
+.bb-zy-char,
+.bb-zy-light {
+  line-height: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1em;
+  text-orientation: upright;
+}
+
+.bb-zy-tone {
+  font-size: 0.8em;
+  position: absolute;
+  left: 100%;
+  top: -0.15em;
+  white-space: nowrap;
+  text-orientation: upright;
+}

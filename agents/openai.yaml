@@ -1,0 +1,4 @@
+interface:
+  display_name: "Render Zhuyin Web"
+  short_description: "Blackboard-style Zhuyin web rendering rules"
+  default_prompt: "Use $render-zhuyin-web to build a web page that renders Mandarin Zhuyin with the Blackboard display logic."
