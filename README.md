@@ -1,6 +1,6 @@
 # render-zhuyin-web
 
-Codex Skill for rendering Mandarin Zhuyin / Bopomofo in web pages using the 班級黑板 display logic.
+Codex Skill for rendering Mandarin Zhuyin / Bopomofo in web pages using the 中文直式 display logic.
 
 ## Install
 
